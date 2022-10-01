@@ -14,7 +14,7 @@ def median(numbers):
 # Main
 if __name__ == "__main__":
     # Get user input
-    numbers = input("Enter a comma separated list of numbers: ")
+    numbers = input()
     # Convert user input to list of integers
     numbers = [int(n) for n in numbers.split(",")]
     # Print median
