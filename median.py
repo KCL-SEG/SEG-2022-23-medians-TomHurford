@@ -18,6 +18,6 @@ if __name__ == "__main__":
     # Convert user input to list of integers
     numbers = [int(n) for n in numbers.split(",")]
     # Print median
-    print(median(numbers))
+    print(str(median(numbers)))
 
 # End of script
