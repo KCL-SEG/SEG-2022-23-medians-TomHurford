@@ -3,15 +3,13 @@
 # Import modules
 import sys
 
-# Define functions
+# Function to find the median of a list of numbers
 def median(numbers):
-    """Return the median of a list of numbers."""
     numbers.sort()
     if len(numbers) % 2 == 0:
-        median = (numbers[int(len(numbers)/2)] + numbers[int(len(numbers)/2)-1]) / 2
+        return (numbers[len(numbers) // 2] + numbers[len(numbers) // 2 - 1]) / 2
     else:
-        median = numbers[int(len(numbers)/2)]
-    return median
+        return numbers[len(numbers) // 2]
 
 # Main
 if __name__ == "__main__":
